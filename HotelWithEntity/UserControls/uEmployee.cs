@@ -28,5 +28,7 @@ namespace HotelWithEntity.UserControls
         {
             dtgvListEmployee.DataSource = _employeeService.GetEmployee();
         }
+
+     
     }
 }

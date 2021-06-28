@@ -35,9 +35,9 @@
             // dtgvListEmployee
             // 
             this.dtgvListEmployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvListEmployee.Location = new System.Drawing.Point(145, 121);
+            this.dtgvListEmployee.Location = new System.Drawing.Point(28, 215);
             this.dtgvListEmployee.Name = "dtgvListEmployee";
-            this.dtgvListEmployee.Size = new System.Drawing.Size(850, 361);
+            this.dtgvListEmployee.Size = new System.Drawing.Size(1160, 412);
             this.dtgvListEmployee.TabIndex = 0;
             // 
             // uEmployee
@@ -47,7 +47,7 @@
             this.BackColor = System.Drawing.Color.Cyan;
             this.Controls.Add(this.dtgvListEmployee);
             this.Name = "uEmployee";
-            this.Size = new System.Drawing.Size(1290, 574);
+            this.Size = new System.Drawing.Size(1488, 685);
             this.Load += new System.EventHandler(this.uEmployee_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvListEmployee)).EndInit();
             this.ResumeLayout(false);

@@ -32,12 +32,9 @@ namespace HotelWithEntity.Forms
         private void picbExit_Click(object sender, EventArgs e)
         {
 
-            var container = UnitiesRegister.BuildUnityContainer();
 
-            fLogin login = container.Resolve<fLogin>(); ;
             this.Close();
 
-            login.ShowDialog();
         }
 
         private void btnHome_Click(object sender, EventArgs e)
@@ -132,5 +129,19 @@ namespace HotelWithEntity.Forms
                 }
             }
         }
-    }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            var container = UnitiesRegister.BuildUnityContainer();
+            fMain main = container.Resolve<fMain>();
+            fLogin login = container.Resolve<fLogin>();
+            if (MessageBox.Show("Bạn có muốn đăng xuất không??", "Message", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                main.Close();
+                login.Show();
+
+            }
+
+        }
+    } 
 }

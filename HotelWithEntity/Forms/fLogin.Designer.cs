@@ -336,13 +336,13 @@
         private System.Windows.Forms.PictureBox picbExit;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox txbPassword;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox txbUsername;
         private System.Windows.Forms.Label lblForgotPass;
         private System.Windows.Forms.CheckBox ckbRemember;
         private Customs.ButtonRadius btnLogin;
         private System.Windows.Forms.Label lblMgsError;
+        public System.Windows.Forms.TextBox txbPassword;
+        public System.Windows.Forms.TextBox txbUsername;
     }
 }
