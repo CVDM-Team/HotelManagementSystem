@@ -137,6 +137,7 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>HotelModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="Hotel.bak" />
     <None Include="Models\HotelModel.edmx.diagram">
       <DependentUpon>HotelModel.edmx</DependentUpon>
     </None>
