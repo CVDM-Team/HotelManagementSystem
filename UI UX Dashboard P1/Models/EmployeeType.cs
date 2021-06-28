@@ -22,6 +22,7 @@ namespace HotelManagementSystem.Models
     
         public int ID { get; set; }
         public string Name { get; set; }
+        public Nullable<bool> isLocked { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Employee> Employees { get; set; }

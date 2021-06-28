@@ -42,15 +42,18 @@ namespace HotelManagementSystem.UserControls
             // 
             // dgvEmployee
             // 
-            this.dgvEmployee.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.dgvEmployee.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvEmployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEmployee.Location = new System.Drawing.Point(3, 130);
+            this.dgvEmployee.Location = new System.Drawing.Point(4, 160);
+            this.dgvEmployee.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvEmployee.Name = "dgvEmployee";
+            this.dgvEmployee.RowHeadersWidth = 51;
             this.dgvEmployee.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvEmployee.Size = new System.Drawing.Size(1140, 567);
+            this.dgvEmployee.Size = new System.Drawing.Size(1520, 698);
             this.dgvEmployee.TabIndex = 0;
+            this.dgvEmployee.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmployee_CellContentClick);
             this.dgvEmployee.Click += new System.EventHandler(this.dgvEmployee_Click);
             // 
             // btnLock
@@ -58,9 +61,10 @@ namespace HotelManagementSystem.UserControls
             this.btnLock.BackColor = System.Drawing.Color.LightCoral;
             this.btnLock.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLock.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnLock.Location = new System.Drawing.Point(177, 48);
+            this.btnLock.Location = new System.Drawing.Point(236, 59);
+            this.btnLock.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLock.Name = "btnLock";
-            this.btnLock.Size = new System.Drawing.Size(81, 33);
+            this.btnLock.Size = new System.Drawing.Size(108, 41);
             this.btnLock.TabIndex = 10;
             this.btnLock.Text = "Lock";
             this.btnLock.UseVisualStyleBackColor = false;
@@ -71,9 +75,10 @@ namespace HotelManagementSystem.UserControls
             this.btnAdd.BackColor = System.Drawing.Color.GreenYellow;
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btnAdd.Location = new System.Drawing.Point(3, 48);
+            this.btnAdd.Location = new System.Drawing.Point(4, 59);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(81, 33);
+            this.btnAdd.Size = new System.Drawing.Size(108, 41);
             this.btnAdd.TabIndex = 11;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -84,9 +89,10 @@ namespace HotelManagementSystem.UserControls
             this.btnEdit.BackColor = System.Drawing.Color.LightSkyBlue;
             this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btnEdit.Location = new System.Drawing.Point(90, 48);
+            this.btnEdit.Location = new System.Drawing.Point(120, 59);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(81, 33);
+            this.btnEdit.Size = new System.Drawing.Size(108, 41);
             this.btnEdit.TabIndex = 10;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = false;
@@ -97,9 +103,10 @@ namespace HotelManagementSystem.UserControls
             this.btnShowLocked.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnShowLocked.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnShowLocked.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnShowLocked.Location = new System.Drawing.Point(351, 48);
+            this.btnShowLocked.Location = new System.Drawing.Point(468, 59);
+            this.btnShowLocked.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowLocked.Name = "btnShowLocked";
-            this.btnShowLocked.Size = new System.Drawing.Size(134, 33);
+            this.btnShowLocked.Size = new System.Drawing.Size(179, 41);
             this.btnShowLocked.TabIndex = 10;
             this.btnShowLocked.Text = "Show Locked";
             this.btnShowLocked.UseVisualStyleBackColor = false;
@@ -110,9 +117,10 @@ namespace HotelManagementSystem.UserControls
             this.button1.BackColor = System.Drawing.Color.LightBlue;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.button1.Location = new System.Drawing.Point(491, 48);
+            this.button1.Location = new System.Drawing.Point(655, 59);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 33);
+            this.button1.Size = new System.Drawing.Size(179, 41);
             this.button1.TabIndex = 10;
             this.button1.Text = "Show Actived";
             this.button1.UseVisualStyleBackColor = false;
@@ -123,9 +131,10 @@ namespace HotelManagementSystem.UserControls
             this.btnShowAll.BackColor = System.Drawing.Color.Thistle;
             this.btnShowAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnShowAll.ForeColor = System.Drawing.Color.DarkMagenta;
-            this.btnShowAll.Location = new System.Drawing.Point(631, 48);
+            this.btnShowAll.Location = new System.Drawing.Point(841, 59);
+            this.btnShowAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowAll.Name = "btnShowAll";
-            this.btnShowAll.Size = new System.Drawing.Size(92, 33);
+            this.btnShowAll.Size = new System.Drawing.Size(123, 41);
             this.btnShowAll.TabIndex = 10;
             this.btnShowAll.Text = "Show All";
             this.btnShowAll.UseVisualStyleBackColor = false;
@@ -136,9 +145,10 @@ namespace HotelManagementSystem.UserControls
             this.btnActive.BackColor = System.Drawing.Color.YellowGreen;
             this.btnActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActive.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btnActive.Location = new System.Drawing.Point(264, 48);
+            this.btnActive.Location = new System.Drawing.Point(352, 59);
+            this.btnActive.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnActive.Name = "btnActive";
-            this.btnActive.Size = new System.Drawing.Size(81, 33);
+            this.btnActive.Size = new System.Drawing.Size(108, 41);
             this.btnActive.TabIndex = 10;
             this.btnActive.Text = "Active";
             this.btnActive.UseVisualStyleBackColor = false;
@@ -146,7 +156,7 @@ namespace HotelManagementSystem.UserControls
             // 
             // UC_Employee
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnShowAll);
@@ -156,8 +166,9 @@ namespace HotelManagementSystem.UserControls
             this.Controls.Add(this.btnLock);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.dgvEmployee);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "UC_Employee";
-            this.Size = new System.Drawing.Size(1146, 694);
+            this.Size = new System.Drawing.Size(1528, 854);
             this.Load += new System.EventHandler(this.UC_Employee_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).EndInit();
             this.ResumeLayout(false);

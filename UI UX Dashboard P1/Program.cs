@@ -17,7 +17,6 @@ namespace HotelManagementSystem
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormMain());
-            //Them boi Lam
         }
     }
 }

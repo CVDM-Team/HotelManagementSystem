@@ -74,8 +74,9 @@
             this.panel1.Controls.Add(this.lblAdmin);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1361, 47);
+            this.panel1.Size = new System.Drawing.Size(1815, 58);
             this.panel1.TabIndex = 0;
             // 
             // button4
@@ -84,9 +85,10 @@
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(1208, 11);
+            this.button4.Location = new System.Drawing.Point(1611, 14);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(26, 24);
+            this.button4.Size = new System.Drawing.Size(35, 30);
             this.button4.TabIndex = 4;
             this.button4.UseVisualStyleBackColor = true;
             // 
@@ -96,9 +98,10 @@
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(1251, 11);
+            this.button3.Location = new System.Drawing.Point(1668, 14);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(27, 25);
+            this.button3.Size = new System.Drawing.Size(36, 31);
             this.button3.TabIndex = 3;
             this.button3.UseVisualStyleBackColor = true;
             // 
@@ -108,9 +111,10 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(1294, 6);
+            this.button2.Location = new System.Drawing.Point(1725, 7);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(35, 35);
+            this.button2.Size = new System.Drawing.Size(47, 43);
             this.button2.TabIndex = 2;
             this.button2.UseVisualStyleBackColor = true;
             // 
@@ -121,9 +125,10 @@
             this.btnLeftMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnLeftMenu.FlatAppearance.BorderSize = 0;
             this.btnLeftMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLeftMenu.Location = new System.Drawing.Point(192, 13);
+            this.btnLeftMenu.Location = new System.Drawing.Point(256, 16);
+            this.btnLeftMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLeftMenu.Name = "btnLeftMenu";
-            this.btnLeftMenu.Size = new System.Drawing.Size(23, 22);
+            this.btnLeftMenu.Size = new System.Drawing.Size(31, 27);
             this.btnLeftMenu.TabIndex = 1;
             this.btnLeftMenu.UseVisualStyleBackColor = false;
             this.btnLeftMenu.Click += new System.EventHandler(this.btnLeftMenu_Click);
@@ -133,9 +138,10 @@
             this.lblAdmin.AutoSize = true;
             this.lblAdmin.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAdmin.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblAdmin.Location = new System.Drawing.Point(221, 11);
+            this.lblAdmin.Location = new System.Drawing.Point(295, 14);
+            this.lblAdmin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAdmin.Name = "lblAdmin";
-            this.lblAdmin.Size = new System.Drawing.Size(165, 25);
+            this.lblAdmin.Size = new System.Drawing.Size(200, 30);
             this.lblAdmin.TabIndex = 0;
             this.lblAdmin.Text = "Admin Dashboard";
             // 
@@ -157,9 +163,10 @@
             this.pnlLeftMenu.Controls.Add(this.btnDashBroad);
             this.pnlLeftMenu.Controls.Add(this.btnDashBroadIcon);
             this.pnlLeftMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlLeftMenu.Location = new System.Drawing.Point(0, 47);
+            this.pnlLeftMenu.Location = new System.Drawing.Point(0, 58);
+            this.pnlLeftMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlLeftMenu.Name = "pnlLeftMenu";
-            this.pnlLeftMenu.Size = new System.Drawing.Size(215, 694);
+            this.pnlLeftMenu.Size = new System.Drawing.Size(287, 854);
             this.pnlLeftMenu.TabIndex = 1;
             // 
             // btnLogout
@@ -169,9 +176,10 @@
             this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.btnLogout.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnLogout.Location = new System.Drawing.Point(42, 288);
+            this.btnLogout.Location = new System.Drawing.Point(56, 354);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(155, 30);
+            this.btnLogout.Size = new System.Drawing.Size(207, 43);
             this.btnLogout.TabIndex = 13;
             this.btnLogout.Text = "Logout";
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -182,9 +190,10 @@
             // 
             this.btnLogoutIcon.Image = ((System.Drawing.Image)(resources.GetObject("btnLogoutIcon.Image")));
             this.btnLogoutIcon.InitialImage = ((System.Drawing.Image)(resources.GetObject("btnLogoutIcon.InitialImage")));
-            this.btnLogoutIcon.Location = new System.Drawing.Point(12, 289);
+            this.btnLogoutIcon.Location = new System.Drawing.Point(16, 356);
+            this.btnLogoutIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLogoutIcon.Name = "btnLogoutIcon";
-            this.btnLogoutIcon.Size = new System.Drawing.Size(24, 24);
+            this.btnLogoutIcon.Size = new System.Drawing.Size(32, 30);
             this.btnLogoutIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnLogoutIcon.TabIndex = 12;
             this.btnLogoutIcon.TabStop = false;
@@ -197,9 +206,10 @@
             this.btnEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEmployee.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.btnEmployee.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnEmployee.Location = new System.Drawing.Point(42, 240);
+            this.btnEmployee.Location = new System.Drawing.Point(56, 295);
+            this.btnEmployee.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEmployee.Name = "btnEmployee";
-            this.btnEmployee.Size = new System.Drawing.Size(155, 30);
+            this.btnEmployee.Size = new System.Drawing.Size(207, 43);
             this.btnEmployee.TabIndex = 11;
             this.btnEmployee.Text = "Employee";
             this.btnEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -210,9 +220,10 @@
             // 
             this.btnEmployeeIcon.Image = ((System.Drawing.Image)(resources.GetObject("btnEmployeeIcon.Image")));
             this.btnEmployeeIcon.InitialImage = ((System.Drawing.Image)(resources.GetObject("btnEmployeeIcon.InitialImage")));
-            this.btnEmployeeIcon.Location = new System.Drawing.Point(12, 241);
+            this.btnEmployeeIcon.Location = new System.Drawing.Point(16, 297);
+            this.btnEmployeeIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEmployeeIcon.Name = "btnEmployeeIcon";
-            this.btnEmployeeIcon.Size = new System.Drawing.Size(24, 24);
+            this.btnEmployeeIcon.Size = new System.Drawing.Size(32, 30);
             this.btnEmployeeIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnEmployeeIcon.TabIndex = 10;
             this.btnEmployeeIcon.TabStop = false;
@@ -225,9 +236,10 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.button9.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button9.Location = new System.Drawing.Point(42, 194);
+            this.button9.Location = new System.Drawing.Point(56, 239);
+            this.button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(155, 30);
+            this.button9.Size = new System.Drawing.Size(207, 43);
             this.button9.TabIndex = 9;
             this.button9.Text = "Settings";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -237,9 +249,10 @@
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.InitialImage")));
-            this.pictureBox5.Location = new System.Drawing.Point(12, 195);
+            this.pictureBox5.Location = new System.Drawing.Point(16, 240);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox5.Size = new System.Drawing.Size(32, 30);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 8;
             this.pictureBox5.TabStop = false;
@@ -251,9 +264,10 @@
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.button8.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button8.Location = new System.Drawing.Point(42, 147);
+            this.button8.Location = new System.Drawing.Point(56, 181);
+            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(155, 30);
+            this.button8.Size = new System.Drawing.Size(207, 43);
             this.button8.TabIndex = 7;
             this.button8.Text = "Report";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -263,9 +277,10 @@
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.InitialImage")));
-            this.pictureBox4.Location = new System.Drawing.Point(12, 151);
+            this.pictureBox4.Location = new System.Drawing.Point(16, 186);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox4.Size = new System.Drawing.Size(32, 30);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
@@ -276,21 +291,24 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.button7.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button7.Location = new System.Drawing.Point(42, 102);
+            this.button7.Location = new System.Drawing.Point(56, 112);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(155, 24);
+            this.button7.Size = new System.Drawing.Size(207, 47);
             this.button7.TabIndex = 5;
-            this.button7.Text = "Admin";
+            this.button7.Text = "EmployeeType";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.InitialImage")));
-            this.pictureBox3.Location = new System.Drawing.Point(12, 102);
+            this.pictureBox3.Location = new System.Drawing.Point(16, 126);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox3.Size = new System.Drawing.Size(32, 30);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
@@ -301,9 +319,10 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.button6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button6.Location = new System.Drawing.Point(42, 60);
+            this.button6.Location = new System.Drawing.Point(56, 74);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(155, 24);
+            this.button6.Size = new System.Drawing.Size(207, 30);
             this.button6.TabIndex = 3;
             this.button6.Text = "Chart";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -313,9 +332,10 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.InitialImage")));
-            this.pictureBox2.Location = new System.Drawing.Point(12, 60);
+            this.pictureBox2.Location = new System.Drawing.Point(16, 74);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox2.Size = new System.Drawing.Size(32, 30);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -326,9 +346,10 @@
             this.btnDashBroad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashBroad.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.btnDashBroad.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnDashBroad.Location = new System.Drawing.Point(42, 22);
+            this.btnDashBroad.Location = new System.Drawing.Point(56, 27);
+            this.btnDashBroad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDashBroad.Name = "btnDashBroad";
-            this.btnDashBroad.Size = new System.Drawing.Size(155, 24);
+            this.btnDashBroad.Size = new System.Drawing.Size(207, 30);
             this.btnDashBroad.TabIndex = 1;
             this.btnDashBroad.Text = "Dashboard";
             this.btnDashBroad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -339,9 +360,10 @@
             // 
             this.btnDashBroadIcon.Image = ((System.Drawing.Image)(resources.GetObject("btnDashBroadIcon.Image")));
             this.btnDashBroadIcon.InitialImage = ((System.Drawing.Image)(resources.GetObject("btnDashBroadIcon.InitialImage")));
-            this.btnDashBroadIcon.Location = new System.Drawing.Point(12, 22);
+            this.btnDashBroadIcon.Location = new System.Drawing.Point(16, 27);
+            this.btnDashBroadIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDashBroadIcon.Name = "btnDashBroadIcon";
-            this.btnDashBroadIcon.Size = new System.Drawing.Size(24, 24);
+            this.btnDashBroadIcon.Size = new System.Drawing.Size(32, 30);
             this.btnDashBroadIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnDashBroadIcon.TabIndex = 0;
             this.btnDashBroadIcon.TabStop = false;
@@ -350,9 +372,10 @@
             // pnlMain
             // 
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlMain.Location = new System.Drawing.Point(215, 47);
+            this.pnlMain.Location = new System.Drawing.Point(287, 58);
+            this.pnlMain.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(1146, 694);
+            this.pnlMain.Size = new System.Drawing.Size(1528, 854);
             this.pnlMain.TabIndex = 2;
             this.pnlMain.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -363,14 +386,15 @@
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1361, 741);
+            this.ClientSize = new System.Drawing.Size(1815, 912);
             this.ControlBox = false;
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.pnlLeftMenu);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormMain";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

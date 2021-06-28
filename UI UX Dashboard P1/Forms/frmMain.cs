@@ -26,6 +26,7 @@ namespace HotelManagementSystem
         private void Form1_Load(object sender, EventArgs e)
         {
             UC_DashBroad uC_DashBroad = new UC_DashBroad();
+            this.WindowState = FormWindowState.Maximized;
             uC_DashBroad.Dock = DockStyle.Fill;
             pnlMain.Controls.Add(uC_DashBroad);
         }
@@ -136,6 +137,15 @@ namespace HotelManagementSystem
             uC_DashBroad.Dock = DockStyle.Fill;
             pnlMain.Controls.Add(uC_DashBroad);
             pnlMain.Controls[pnlMain.Controls.Count-1].BringToFront();
+        }
+
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            UC_EmployeeType UC = new UC_EmployeeType();
+            UC.Dock = DockStyle.Fill;
+            pnlMain.Controls.Add(UC);
+            pnlMain.Controls[pnlMain.Controls.Count - 1].BringToFront();
         }
     }
 }

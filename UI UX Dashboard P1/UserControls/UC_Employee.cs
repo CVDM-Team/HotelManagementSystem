@@ -15,7 +15,7 @@ namespace HotelManagementSystem.UserControls
 {
     public partial class UC_Employee : UserControl
     {
-        HotelEntities db = new HotelEntities();
+        HotelEntities1 db = new HotelEntities1();
         public UC_Employee()
         {
             InitializeComponent();
@@ -38,7 +38,7 @@ namespace HotelManagementSystem.UserControls
         }
         private void LoadDataGridView()
         {
-            using (var context = new HotelEntities())
+            using (var context = new HotelEntities1())
             {
                 dgvEmployee.DataSource = context.Employees.Select(x => new { ID = x.ID, Name = x.Name, Address = x.Address, EmployeeType = x.EmployeeType.Name ,Status=x.IsLocked==true?"Lock":"Active"}).ToList();
             }
@@ -93,7 +93,7 @@ namespace HotelManagementSystem.UserControls
 
         private void btnShowLocked_Click(object sender, EventArgs e)
         {
-            using (var context = new HotelEntities())
+            using (var context = new HotelEntities1())
             {
                 dgvEmployee.DataSource = context.Employees.Where(x=>x.IsLocked==true).Select(x => new { ID = x.ID, Name = x.Name, Address = x.Address, EmployeeType = x.EmployeeType.Name, Status = x.IsLocked == true ? "Lock" : "Active" }).ToList();
             }
@@ -101,7 +101,7 @@ namespace HotelManagementSystem.UserControls
 
         private void btnShowActived_Click(object sender, EventArgs e)
         {
-            using (var context = new HotelEntities())
+            using (var context = new HotelEntities1())
             {
                 dgvEmployee.DataSource = context.Employees.Where(x => x.IsLocked == false).Select(x => new { ID = x.ID, Name = x.Name, Address = x.Address, EmployeeType = x.EmployeeType.Name, Status = x.IsLocked == true ? "Lock" : "Active" }).ToList();
             }
@@ -109,7 +109,7 @@ namespace HotelManagementSystem.UserControls
 
         private void btnShowAll_Click(object sender, EventArgs e)
         {
-            using (var context = new HotelEntities())
+            using (var context = new HotelEntities1())
             {
                 dgvEmployee.DataSource = context.Employees.Select(x => new { ID = x.ID, Name = x.Name, Address = x.Address, EmployeeType = x.EmployeeType.Name, Status = x.IsLocked == true ? "Lock" : "Active" }).ToList();
             }
@@ -126,6 +126,11 @@ namespace HotelManagementSystem.UserControls
 
                     LoadDataGridView();
             }
+        }
+
+        private void dgvEmployee_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

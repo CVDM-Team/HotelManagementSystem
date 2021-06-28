@@ -13,7 +13,7 @@ namespace HotelManagementSystem.Forms
 {
     public partial class frmAddEmployee : Form
     {
-        HotelEntities db = new HotelEntities();
+        HotelEntities1 db = new HotelEntities1();
         public frmAddEmployee()
         {
             InitializeComponent();
